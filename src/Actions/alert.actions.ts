@@ -13,7 +13,4 @@ export class AlertActions {
   public static clear () : AlertMessage {
     return { type: AlertType.CLEAR, message: ''}
   }
-
-  
-
 }
