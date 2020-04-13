@@ -2,14 +2,14 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
     "allowJs": true,
     "jsx": "react",
     "outDir": "./dist",
     "rootDir": "./",
-    "isolatedModules": true,
+    "isolatedModules": false,
     "strict": true,
     "moduleResolution": "node",
+    "noImplicitAny": false,
     "baseUrl": "./src",
     "typeRoots": ["node_modules/@types", "src/typings"],
     "esModuleInterop": true
